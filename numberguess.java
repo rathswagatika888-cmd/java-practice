@@ -15,7 +15,7 @@ public class numberguess {
             attempts++;
             if (guess == num) {
                 System.out.println("you guess the number");
-                System.out.println("Total guesses: " + attempts);
+                System.out.println("number of attempts : " + attempts);
                 break;
             } else if (guess > num) {
                 System.out.println("number is lower");
