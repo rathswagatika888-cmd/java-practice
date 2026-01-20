@@ -9,7 +9,7 @@ public class numberguess {
         int num = rand.nextInt(100) + 1;
         int guess;
         int attempts = 0;
-        System.out.println("enter a number to guess:");
+        System.out.println("guess the number:");
         while (true) {
             guess = sc.nextInt();
             attempts++;
@@ -18,9 +18,9 @@ public class numberguess {
                 System.out.println("number of attempts : " + attempts);
                 break;
             } else if (guess > num) {
-                System.out.println("number is lower");
+                System.out.println("number is lower,try again");
             } else {
-                System.out.println("number is higher");
+                System.out.println("number is higher,try again");
             }
         }
     }
